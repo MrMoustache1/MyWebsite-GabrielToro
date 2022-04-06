@@ -53,3 +53,56 @@
 
         <button id="contact"><a href="contactMe.html" id="contact">Contact</a></button>
     </header>
+
+    <div class="box">
+        <div class="content-box">
+            <div class="right">
+                <form method="POST" action="mailto:johndoe108778@gmail.com" target="_BLANK">
+                    <h2 id="box-title">Contact Us</h2>
+
+                    <div class="icons">
+                        <label for="check1">Book a service</label>
+                    <input type="checkbox" class="check" id="check1">
+
+                    <label for="check2">Support</label>
+                    <input type="checkbox" class="check" id="check2">
+                    </div>
+                    
+                    <hr>
+                    <br>
+
+                    <div class="in">
+                        <label for="date">Date</label>
+                        <input type="date" class="field" id="date">
+
+                        <label for="fn">First Name<strong class="astrik">*</strong></label>
+                        <input type="text" class="field field-text" placeholder="First Name" id="fn" required="">
+
+                        <label for="ln">Last Name<strong class="astrik">*</strong></label>
+                        <input type="text" class="field field-text" placeholder="Last Name" id="ln" required="">
+                    </div>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" class="field" placeholder="123-123-1234" id="phone"
+                        pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" title="Please enter a valid format">
+
+                    <label for="email">Email<strong class="astrik">*</strong></label>
+                    <input type="email" class="field" placeholder="e.x. johndoe@gmail.com" id="email" required=""
+                        pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email">
+
+                    <label for="sj">Subject<strong class="astrik">*</strong></label>
+                    <input type="text" class="field" id="sj" maxlength="68" required="">
+
+                    <label for="msg">Message<strong class="astrik">*</strong></label>
+                    <textarea class="field area" placeholder=" Message" id="msg" required=""></textarea>
+
+                    <label for="addmsg">Anything else?</label>
+                    <textarea class="field area" placeholder=" Additional Details" id="addmsg"></textarea>
+
+                    <button type="reset" class="btn">Reset</button>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
