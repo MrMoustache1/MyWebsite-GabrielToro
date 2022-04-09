@@ -1,4 +1,4 @@
-* {
+ * {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -41,7 +41,7 @@ header{
     transition: all 0.3s ease 0s;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-size: large;
 }
 
